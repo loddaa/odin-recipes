@@ -1,0 +1,21 @@
+:root {
+    --title-color: #495E57;
+    --section-padding: 1rem 12rem;
+    --bg-color: #F5F7F8;
+    --text-color: #45474B;
+    --body-font-family: 'Syne', sans-serif;
+    --body-font-weight: 400;
+    --title-font-weight: 800;
+}
+  
+body {
+    background-color: var(--bg-color);
+    font-family: var(--body-font-family);
+    font-weight: var(--body-font-weight);
+    color: var(--text-color);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}

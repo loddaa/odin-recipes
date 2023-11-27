@@ -1,0 +1,22 @@
+nav li {
+    font-weight: var(--title-font-weight);
+    list-style: none;
+    padding: 0;
+    transition: .5s;
+    border-bottom: 2px solid rgba(73, 94, 87, 0);
+}
+
+nav li:hover {
+    border-bottom: 2px solid rgba(73, 94, 87, 1);
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3em;
+    justify-content: center;
+}
+
+nav {
+    margin: 2em 0;
+}

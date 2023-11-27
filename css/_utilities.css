@@ -1,0 +1,15 @@
+.fw-bold {
+    font-weight: 700;
+}
+
+.fw-bolder {
+    font-weight: 800;
+}
+
+.fw-normal {
+    font-weight: 500;
+}
+
+.section-padding {
+    padding: var(--section-padding);
+}
