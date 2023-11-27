@@ -1,0 +1,46 @@
+#title {
+    padding: var(--section-padding);
+}
+
+.main-title {
+    font-weight: var(--title-font-weight);
+    text-align: center;
+    font-size: 50px;
+}
+
+#recipe-spotlight {
+    margin-top: 2em;
+    padding: var(--section-padding);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    column-gap: 2em;;
+}
+
+#recipe-spotlight img {
+    display: block;
+    min-width: calc(100vw * 0.25);
+    max-width: calc(100vw * 0.25);
+    height: calc(100vw * 0.25);
+    object-fit: cover;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+#recipe-spotlight div {
+    overflow: hidden;
+    min-width: calc(100vw * 0.25);
+    max-width: calc(100vw * 0.25);
+    height: calc(100vw * 0.25);
+    border-radius: 50%;
+}
+
+#recipe-spotlight div:hover img {
+    transform: scale(1.1) rotate(12deg);
+}
+
+#recipe-spotlight p {
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+}
