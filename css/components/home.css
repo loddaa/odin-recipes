@@ -11,27 +11,26 @@
 #recipe-spotlight {
     margin-top: 2em;
     padding: var(--section-padding);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    column-gap: 2em;;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
 }
 
 #recipe-spotlight img {
     display: block;
-    min-width: calc(100vw * 0.25);
-    max-width: calc(100vw * 0.25);
-    height: calc(100vw * 0.25);
-    object-fit: cover;
+    min-width: calc(100%);
+    max-width: calc(100%);
     border-radius: 50%;
+    object-fit: cover;
     transition: 1s;
+    margin: 0 auto;
 }
 
 #recipe-spotlight div {
     overflow: hidden;
-    min-width: calc(100vw * 0.25);
-    max-width: calc(100vw * 0.25);
-    height: calc(100vw * 0.25);
+    min-width: calc(100%);
+    max-width: calc(100%);
+    height: fit-content;
     border-radius: 50%;
 }
 

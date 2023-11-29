@@ -1,0 +1,1 @@
+import "./scripts/calculate-image-width.js"
